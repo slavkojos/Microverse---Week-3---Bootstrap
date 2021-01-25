@@ -29,7 +29,13 @@
 }
 
 .link {
-    font-size: 19px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.bottom-link {
+    text-transform: uppercase;
+    color:gray;
     font-weight: 700;
 }
 
