@@ -14,7 +14,7 @@ Bootstrap Framework
 
 ## Live Demo
 
-https://slavkojos.github.io/Microverse---Week-3---Responsive-Design/
+https://slavkojos.github.io/Microverse---Week-3---Bootstrap/
 
 👤 Authors:
 
