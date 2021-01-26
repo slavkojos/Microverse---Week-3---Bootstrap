@@ -76,9 +76,28 @@ li a {
 
 .main-footer-right-align i {
   color: gray;
-
 }
+
 .first-footer-item {
   font-weight: 700;
 }
 
+.more-stories-img {
+  width: 95px;
+  height: 95px;
+}
+
+.debate-profile-image {
+  width: 63px;
+  height: 63px;
+}
+
+.rounded-circle {
+  width: 30px;
+  height: 30px;
+}
+
+.signup-logo {
+  width: 29px;
+  height: 28px;
+}
