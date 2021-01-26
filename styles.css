@@ -1,75 +1,77 @@
 /********************************************* HEADER *******************************************************************/
 .main-header-container {
-    color: white;
-    background-color: #f72210;
+  color: white;
+  background-color: #f72210;
 }
 
 .top-logo {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 .mobile-logo {
-    width: 132px;
-    height: 20px;
+  width: 132px;
+  height: 20px;
 }
 
 .main-header-right-align {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 .login {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .button-subscribe {
-    font-weight: 700;
-    border-radius: 20px;
+  font-weight: 700;
+  border-radius: 20px;
 }
 
 .link {
-    font-size: 16px;
-    font-weight: 700;
+  font-size: 19px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+li input {
+  width: 100%;
 }
 
 .bottom-link {
-    text-transform: uppercase;
-    color: gray;
-    font-weight: 700;
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .button-subscribe {
-        font-size: 13px;
-        font-weight: 700;
-    }
+  .button-subscribe {
+    font-size: 13px;
+    font-weight: 700;
+  }
 }
 
-/********************************************************FOOTER*******************************************************************************/
-
+/********************************************************  FOOTER  *******************************************************************************/
 
 .footer-logo {
-    width: 251px;
-    height: 48px;
-    fill: red;
+  width: 251px;
+  height: 48px;
+  fill: red;
 }
-
 
 li a {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
-
-.ul-links-bottom>li {
-    font-size: 14px;
+.ul-links-bottom > li {
+  font-size: 14px;
 }
 
 .main-footer-right-align i {
-    color: gray;
-}
-
-.first-footer-item {
-    font-weight: 700;
+  color: gray;
 }
