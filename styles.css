@@ -36,6 +36,8 @@
 
 li input {
   width: 100%;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .bottom-link {
@@ -74,5 +76,9 @@ li a {
 
 .main-footer-right-align i {
   color: gray;
+
+}
+.first-footer-item {
+  font-weight: 700;
 }
 
