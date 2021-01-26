@@ -29,6 +29,7 @@
 }
 
 .link {
+<<<<<<< Updated upstream
   font-size: 19px;
   font-weight: 700;
   white-space: nowrap;
@@ -36,6 +37,10 @@
 
 li input {
   width: 100%;
+=======
+  font-size: 16px;
+  font-weight: 700;
+>>>>>>> Stashed changes
 }
 
 .bottom-link {
@@ -44,8 +49,16 @@ li input {
   font-weight: 700;
 }
 
+<<<<<<< Updated upstream
 ul {
   list-style-type: none;
+=======
+@media only screen and (max-width: 768px) {
+  .button-subscribe {
+    font-size: 13px;
+    font-weight: 700;
+  }
+>>>>>>> Stashed changes
 }
 
 @media only screen and (max-width: 768px) {
@@ -55,8 +68,11 @@ ul {
   }
 }
 
+<<<<<<< Updated upstream
 /********************************************************  FOOTER  *******************************************************************************/
 
+=======
+>>>>>>> Stashed changes
 .footer-logo {
   width: 251px;
   height: 48px;
@@ -74,4 +90,69 @@ li a {
 
 .main-footer-right-align i {
   color: gray;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+.first-footer-item {
+  font-weight: 700;
+}
+
+/****************************************main*************************************************/
+.wide {
+  max-width: 131rem;
+}
+
+.upper {
+  margin-top: 7rem;
+}
+
+.section-title {
+  color: #03030366;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  padding-bottom: 1.1rem;
+  padding-top: 2rem;
+}
+
+.story {
+  padding-bottom: 20px;
+}
+
+.boxed {
+  position: relative;
+  min-height: 3.3rem;
+}
+
+.boxed > img {
+  position: relative;
+  width: 100%;
+}
+
+.inner-caption {
+  display: block;
+  font: bold 17px/16px "Roboto", sans-serif;
+  color: #f72210;
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main-text {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 10px;
+}
+
+h3 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+}
+>>>>>>> Stashed changes
