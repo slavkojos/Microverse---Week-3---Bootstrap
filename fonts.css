@@ -52,4 +52,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Lora";
+  font-display: swap;
+  src:
+    local("loraregular"),
+    url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff2)
+      format("woff2"),
+    url(https://g.newsweek.com/www/fonts/lora-regular-webfont.woff)
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "digital-7";
+  src:
+    url(https://g.newsweek.com/www/fonts/digital-7.woff) format("woff"),
+    url(https://g.newsweek.com/www/fonts/digital-7.ttf) format("truetype");
+}
