@@ -57,6 +57,11 @@ ul {
   }
 }
 
+a {
+  text-decoration: none;
+  color:black;
+}
+
 /********************************************************  FOOTER  *******************************************************************************/
 
 .footer-logo {
@@ -82,7 +87,7 @@ li a {
   font-weight: 700;
 }
 
-.more-stories-img {
+.more-stories-img, .latest-stories-img {
   width: 95px;
   height: 95px;
 }
@@ -100,4 +105,11 @@ li a {
 .signup-logo {
   width: 29px;
   height: 28px;
+}
+
+.bottom-left {
+  text-align: center;
+  opacity: 90%;
+  bottom: 0%;
+  left: 0%;
 }
