@@ -1,122 +1,20 @@
-/********************************************* HEADER *******************************************************************/
-.main-header-container {
-  color: white;
-  background-color: #f72210;
-}
 
-.top-logo {
-  filter: invert(1);
-}
+/** Breakpoints:
+ * md > 768px
+ * lg > 992px
+ */
 
-.mobile-logo {
-  width: 132px;
-  height: 20px;
-}
-
-.main-header-right-align {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-}
-
-.login {
-  text-decoration: none;
-  color: white;
-}
-
-.button-subscribe {
-  font-weight: 700;
-  border-radius: 20px;
-}
-
-.link {
-  font-size: 19px;
-  font-weight: 700;
-  white-space: nowrap;
-}
-
-li input {
-  width: 100%;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.bottom-link {
-  text-transform: uppercase;
-  color: gray;
-  font-weight: 700;
-}
-
-ul {
-  list-style-type: none;
-}
-
-@media only screen and (max-width: 768px) {
-  .button-subscribe {
-    font-size: 13px;
-    font-weight: 700;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-/********************************************************  FOOTER  *******************************************************************************/
-
-.footer-logo {
-  width: 251px;
-  height: 48px;
-  fill: red;
-}
-
-li a {
-  text-decoration: none;
-  color: gray;
-}
-
-.ul-links-bottom > li {
-  font-size: 14px;
-}
-
-.main-footer-right-align i {
-  color: gray;
-}
-
-.first-footer-item {
-  font-weight: 700;
-}
-
-.more-stories-img,
-.latest-stories-img {
-  width: 95px;
-  height: 95px;
-}
-
-.debate-profile-image {
-  width: 63px;
-  height: 63px;
-}
-
-.rounded-circle {
-  width: 30px;
-  height: 30px;
-}
-
-.signup-logo {
-  width: 29px;
-  height: 28px;
-}
-
-.bottom-left {
-  text-align: center;
-  opacity: 90%;
-  bottom: 0%;
-  left: 0%;
-}
-
-/* ======================
+/**
+ * Main theme
+ * ======================
  **/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
 
 img {
   cursor: pointer;
@@ -134,6 +32,10 @@ img {
 
 .t-bg-gray {
   background-color: #e4e5e6;
+}
+
+.t-bg-verydark-gray {
+  background-color: #c2d4d7;
 }
 
 .t-bg-light-gray {
@@ -162,16 +64,25 @@ img {
 }
 
 .t-font-roboto {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.t-size-s {
-  font-size: 0.85em;
+.t-btn {
+  color: black;
+  font-size: 13px;
+  background: #fee400;
+  border-radius: 15px;
+  padding-left: 0.75rem;
+  padding-right: 0.5rem;
+  letter-spacing: 0.08em;
 }
 
-.t-size-xs {
-  font-size: 0.75em;
+.t-btn-icon {
+  padding-left: 4px;
 }
+
+.t-size-s { font-size: 0.85em; }
+.t-size-xs { font-size: 0.75em; }
 
 .t-highlightable-text:hover {
   cursor: pointer;
@@ -187,6 +98,24 @@ img {
  * Topbar
  * ======================
  **/
+.topbar-logo {
+  fill: white;
+  width: 106px;
+}
+
+.topbar-icon {
+  font-size: 1.5rem;
+}
+
+.topbar-login {
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .topbar-logo {
+    width: 396px;
+  }
+}
 
 /**
  * Page navigation
@@ -201,6 +130,34 @@ img {
 .pagenav-search {
   outline: none;
   width: 60px;
+}
+
+.trending-bar-menu {
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.trending-menu-item {
+  color: #807f84;
+}
+
+.trending-menu-item:hover {
+  color: #f72211;
+  cursor: pointer;
+}
+
+.trending-menu-item:first-child {
+  color: black;
+  cursor: default;
+}
+
+/**
+ * Featured stories
+ * ======================
+ **/
+
+.story-picture img {
+  height: auto;
 }
 
 /**
@@ -291,6 +248,48 @@ img {
  * Footer
  * ======================
  **/
+
+.footer-logo {
+  width: 236px;
+}
+
+.footer-copyright {
+  font-size: 0.75rem;
+}
+
+.footer-nav-link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.footer-nav-item {
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+footer .bi {
+  cursor: pointer;
+}
+
+.bi-facebook:hover {
+  color: #3b5998;
+}
+
+.bi-twitter:hover {
+  color: #1da1f2;
+}
+
+.bi-instagram:hover {
+  color: #405de6;
+}
+
+.bi-youtube:hover {
+  color: #c4302b;
+}
+
+.bi-linkedin:hover {
+  color: #0077b5;
+}
 
 @media (min-width: 768px) {
   .footer-nav-item {
