@@ -260,7 +260,8 @@ img {
 }
 
 .newsletter-img {
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+  background: 
+  url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
     center center / cover no-repeat;
 }
 
@@ -282,7 +283,8 @@ img {
 }
 
 .sign-up-button {
-  background: url(https://g.newsweek.com/www/images/free-sign-up.svg)
+  background: 
+  url(https://g.newsweek.com/www/images/free-sign-up.svg)
     center/108px no-repeat #f61602;
   font-size: 0;
   height: 38px;
@@ -321,7 +323,8 @@ img {
 }
 
 .icon-n {
-  background: #f72211 url("https://g.newsweek.com/www/images/logo-n1.svg")
+  background: 
+  #f72211 url("https://g.newsweek.com/www/images/logo-n1.svg")
     no-repeat;
   width: 28px;
   height: 28px;
